@@ -1,0 +1,27 @@
+{
+  "authors": [
+    "Ultrasonic1209"
+  ],
+  "contact": {},
+  "depends": {
+    "fabricloader": ">=0.12.8",
+    "fabric": "*",
+    "minecraft": "1.18",
+    "fabric-permissions-api-v0": "*"
+  },
+  "description": "Implements Spigot's /tps for server panels.",
+  "entrypoints": {
+    "client": [
+      "xyz.ultrasplayroom.mc.spigottps.client.SpigotTPSClient"
+    ],
+    "main": [
+      "xyz.ultrasplayroom.mc.spigottps.SpigotTPS"
+    ]
+  },
+  "environment": "server",
+  "id": "spigottps",
+  "license": "MIT",
+  "name": "SpigotTPS",
+  "schemaVersion": 1,
+  "version": "${version}"
+}
